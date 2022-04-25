@@ -1,0 +1,8 @@
+T1	Titles 0 92	Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances
+T2	Persons 95 104	Zekang Li
+R1	Author Arg1:T2 Arg2:T1	
+T3	Methods 118 145	open-domain dialogue models
+T4	Models 229 268	large-scale pre-trained language models
+T5	Issues 280 379	they generally concatenate the dialogue history directly as the model input to predict the response
+R2	Challenges Arg1:T5 Arg2:T4	
+R3	Base Arg1:T4 Arg2:T3	

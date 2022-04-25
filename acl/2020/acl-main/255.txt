@@ -1,0 +1,1 @@
+Glyph2Vec: Learning Chinese Out-of-Vocabulary Word Embedding from Glyphs | Hong-You Chen | chinese nlp applications that rely on large text often contain huge amounts of vocabulary which are sparse in corpus. we show that characters’ written form ,

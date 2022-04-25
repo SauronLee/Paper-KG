@@ -1,0 +1,1 @@
+QuASE: Question-Answer Driven Sentence Encoding | Hangfeng He | question-answering \( qa \) data often encodes essential information in many facets. this paper studies a natural question: can we get supervision from qa data for other tasks \( typically , non-qa ones \) \? for example ,

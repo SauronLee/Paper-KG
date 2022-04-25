@@ -1,0 +1,17 @@
+T1	Titles 0 67	Attention Calibration for Transformer in Neural Machine Translation
+T2	Persons 70 75	Yu Lu
+T3	Methods 78 98	attention mechanisms
+T4	Definitions 171 234	dynamically selecting relevant inputs for different predictions
+R1	Attributes Arg1:T4 Arg2:T3	
+R2	Author Arg1:T2 Arg2:T1	
+T5	Issues 266 345	questioned the attention mechanisms’ capability for discovering decisive inputs
+R3	Challenges Arg1:T5 Arg2:T3	
+T6	Models 426 449	mask perturbation model
+T7	Definitions 377 408	calibrate the attention weights
+R4	Attributes Arg1:T7 Arg2:T6	
+T8	Definitions 455 525	automatically evaluates each input’s contribution to the model outputs
+R5	Attributes Arg1:T8 Arg2:T6	
+R6	Contributions Arg1:T6 Arg2:T1	
+R7	Solution Arg1:T6 Arg2:T5	
+T9	Theories 790 1102	the calibrated attention weights are more uniform at lower layers to collect multiple information while more concentrated on the specific inputs at higher layers. detailed analyses also show a great need for calibration in the attention weights with high entropy where the model is unconfident about its decision
+R8	Result Arg1:T9 Arg2:T6	

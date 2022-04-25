@@ -1,0 +1,1 @@
+A Three-Parameter Rank-Frequency Relation in Natural Languages | Chenchen Ding | we present that , the rank-frequency relation in textual data follows

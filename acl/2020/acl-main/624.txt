@@ -1,0 +1,1 @@
+Language to Network: Conditional Parameter Adaptation with Natural Language Descriptions | Tian Jin | transfer learning using imagenet pre-trained models has been the de facto approach in a wide range of computer vision tasks. however , fine-tuning still requires task-specific training data. in this paper , we propose

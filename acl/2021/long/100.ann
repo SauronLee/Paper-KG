@@ -1,0 +1,18 @@
+T1	Titles 0 71	Improving Zero-Shot Translation by Disentangling Positional Information
+T2	Persons 74 83	Danni Liu
+T3	Sectors 86 125	multilingual neural machine translation
+T4	Definitions 136 245	the capability of directly translating between language pairs unseen in training , i.e. zero-shot translation
+R1	Attributes Arg1:T4 Arg2:T3	
+T5	Issues 287 327	it often suffers from low output quality
+T6	Issues 329 485	the difficulty of generalizing to new translation directions suggests the model representations are highly specific to those language pairs seen in training
+R2	Challenges Arg1:T5 Arg2:T3	
+R3	Challenges Arg1:T6 Arg2:T3	
+T7	Theories 487 615	we demonstrate that a main factor causing the language-specific representations is the positional correspondence to input tokens
+R4	Contributions Arg1:T7 Arg2:T1	
+R5	Solution Arg1:T7 Arg2:T6	
+R6	Solution Arg1:T7 Arg2:T5	
+T8	Evaluations 739 843	we gain up to 18.5 bleu points on zero-shot translation while retaining quality on supervised directions
+R7	Result Arg1:T8 Arg2:T7	
+T9	Theories 1096 1233	by thorough inspections of the hidden layer outputs , we show that our approach indeed leads to more language-independent representations
+R8	Result Arg1:T9 Arg2:T7	
+R9	Contributions Arg1:T9 Arg2:T1	

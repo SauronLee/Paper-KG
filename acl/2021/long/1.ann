@@ -1,0 +1,20 @@
+T1	Titles 0 82	How Did This Get Funded?! Automatically Identifying Quirky Scientific Achievements
+T2	Persons 85 95	Chen Shani
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 98 103	humor
+T4	Definitions 107 137	an important social phenomenon
+R2	Attributes Arg1:T4 Arg2:T3	
+T5	Definitions 140 190	serving complex social and psychological functions
+R3	Attributes Arg1:T5 Arg2:T3	
+T6	Issues 247 282	computationally not well understood
+R4	Challenges Arg1:T6 Arg2:T3	
+T7	Methods 373 385	humor mining
+T8	Definitions 387 446	automatically detecting funny and unusual scientific papers
+R5	Attributes Arg1:T8 Arg2:T7	
+T9	Methods 744 762	automatic learning
+R6	Base Arg1:T9 Arg2:T7	
+T10	Datasets 980 1011	funny papers in a large dataset
+T11	Definitions 1015 1038	over 630 , 000 articles
+R7	Attributes Arg1:T11 Arg2:T10	
+R8	Contributions Arg1:T7 Arg2:T1	
+R9	Contributions Arg1:T10 Arg2:T1	

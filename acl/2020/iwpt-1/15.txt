@@ -1,0 +1,1 @@
+Overview of the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies | Gosse Bouma | this overview introduces the task of parsing into enhanced universal dependencies , describes the datasets used for training and evaluation , and evaluation metrics. we outline various approaches and discuss the results of the shared task.

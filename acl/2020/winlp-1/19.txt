@@ -1,0 +1,1 @@
+Translating Natural Language Instructions for Behavioral Robot Navigation with a Multi-Head Attention Mechanism | Patricio Cerda-Mardini | nothing

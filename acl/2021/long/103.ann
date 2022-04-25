@@ -1,0 +1,21 @@
+T1	Titles 0 65	Diverse Pretrained Context Encodings Improve Document Translation
+T2	Persons 68 82	Domenic Donato
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 130 144	sentence-level
+T4	Models 166 177	transformer
+R2	classification Arg1:T3 Arg2:T4	
+T5	Definitions 181 520	incorporating multiple pre-trained document context signals and assess the impact on translation performance of \( 1 \) different pretraining approaches for generating these signals , \( 2 \) the quantity of parallel data for which document context is available , and \( 3 \) conditioning on source , target , or source and target contexts
+T6	Datasets 541 561	nist chinese-english
+T7	Datasets 568 573	iwslt
+T8	Datasets 578 596	wmt english-german
+T9	Theories 642 1006	using pre-trained context representations markedly improves sample efficiency , that adequate parallel data resources are crucial for learning to use document context , that jointly conditioning on multiple context representations outperforms any single representation , and that source context is more valuable for translation performance than target side context
+T10	Models 1017 1036	multi-context model
+R4	Contributions Arg1:T10 Arg2:T1	
+R5	Base Arg1:T6 Arg2:T10	
+R6	Base Arg1:T7 Arg2:T10	
+R7	Base Arg1:T8 Arg2:T10	
+T11	Evaluations 1050 1106	outperforms the best existing context-aware transformers
+R8	Result Arg1:T11 Arg2:T10	
+R9	Result Arg1:T9 Arg2:T10	
+R10	Base Arg1:T4 Arg2:T10	
+R11	Attributes Arg1:T5 Arg2:T10	

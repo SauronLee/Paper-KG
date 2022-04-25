@@ -1,0 +1,40 @@
+T1	Titles 0 108	Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning
+T2	Persons 111 126	Bill Yuchen Lin
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 129 150	commonsense reasoning
+T4	Issues 176 194	limited to english
+R2	Challenges Arg1:T4 Arg2:T3	
+T5	Models 235 263	multilingual language models
+T6	Models 267 273	ml-lms
+R3	Base Arg1:T6 Arg2:T5	
+R4	Solution Arg1:T5 Arg2:T4	
+T7	Sectors 318 321	csr
+R5	Acronym Arg1:T7 Arg2:T3	
+T8	Datasets 356 369	mickey corpus
+R6	Contributions Arg1:T8 Arg2:T1	
+R7	Base Arg1:T8 Arg2:T5	
+T9	Definitions 386 426	561k sentences in 11 different languages
+R8	Attributes Arg1:T9 Arg2:T8	
+T10	Tasks 494 506	mickey probe
+T11	Definitions 509 540	a language-general probing task
+R9	Attributes Arg1:T11 Arg2:T10	
+T12	Definitions 545 624	fairly evaluating the common sense of popular ml-lms across different languages
+R10	Attributes Arg1:T12 Arg2:T10	
+T13	Datasets 674 680	x-csqa
+T14	Datasets 685 692	x-codah
+T15	Definitions 698 754	translating their english versions to 14 other languages
+R11	Attributes Arg1:T15 Arg2:T14	
+R12	Attributes Arg1:T15 Arg2:T13	
+T16	Definitions 772 835	evaluate popular ml-lms for cross-lingual commonsense reasoning
+R13	Attributes Arg1:T16 Arg2:T14	
+R14	Attributes Arg1:T16 Arg2:T13	
+T17	Methods 924 960	multilingual contrastive pretraining
+T18	Methods 964 967	mcp
+R15	Base Arg1:T18 Arg2:T17	
+R16	Contributions Arg1:T17 Arg2:T1	
+R17	Contributions Arg1:T14 Arg2:T1	
+R18	Contributions Arg1:T13 Arg2:T1	
+T19	Definitions 973 1023	it significantly enhances sentence representations
+R19	Attributes Arg1:T19 Arg2:T17	
+T20	Evaluations 1089 1127	+2.7% accuracy for x-csqa over xlm-r_l
+R20	Result Arg1:T20 Arg2:T17	

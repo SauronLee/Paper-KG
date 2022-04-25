@@ -1,0 +1,1 @@
+Sources of Transfer in Multilingual Named Entity Recognition | David Mueller | named-entities are inherently multilingual , and annotations in any given language may be limited. this motivates us to consider

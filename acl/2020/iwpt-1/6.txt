@@ -1,0 +1,1 @@
+Obfuscation for Privacy-preserving Syntactic Parsing | Zhifeng Hu | the goal of homomorphic encryption is to encrypt data such that another party can operate on it without being explicitly exposed to the content of the original data. we introduce an idea for a privacy-preserving transformation on natural language data , inspired by homomorphic encryption. our primary tool is

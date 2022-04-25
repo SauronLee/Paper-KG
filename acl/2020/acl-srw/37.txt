@@ -1,0 +1,1 @@
+Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup | Jishnu Ray Chowdhury | in this paper , we propose a method of re-ranking the outputs of neural machine translation \( nmt \) systems. after the decoding process , we select a few last iteration outputs in the training process as the

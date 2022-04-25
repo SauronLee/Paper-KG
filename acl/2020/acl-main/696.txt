@@ -1,0 +1,1 @@
+Automated Evaluation of Writing – 50 Years and Counting | Beata Beigman Klebanov | in this theme paper , we focus on automated writing evaluation \( awe \) , using ellis page’s seminal 1966 paper to frame the presentation. we discuss some of the current frontiers in the field and offer some thoughts on the emergent uses of this technology.

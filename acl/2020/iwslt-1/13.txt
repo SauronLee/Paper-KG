@@ -1,0 +1,1 @@
+Character Mapping and Ad-hoc Adaptation: Edinburgh’s IWSLT 2020 Open Domain Translation System | Pinzhen Chen | this paper describes the university of edinburgh’s neural machine translation systems submitted to the iwslt 2020 open domain japanese

@@ -1,0 +1,1 @@
+From Arguments to Key Points: Towards Automatic Argument Summarization | Roy Bar-Haim | generating a concise summary from a large collection of arguments on a given topic is an intriguing yet understudied problem. we propose to represent such summaries as a small set of talking points , termed

@@ -1,0 +1,1 @@
+A Report on the 2020 VUA and TOEFL Metaphor Detection Shared Task | Chee Wee (Ben) Leong | in this paper , we report on the shared task on metaphor identification on vu amsterdam metaphor corpus and on a subset of the toefl native language identification corpus. the shared task was conducted as apart of the acl 2020 workshop on processing figurative language.

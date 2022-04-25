@@ -1,0 +1,1 @@
+Facet-Aware Evaluation for Extractive Summarization | Yuning Mao | commonly adopted metrics for extractive summarization focus on lexical overlap at the token level. in this paper , we present a facet-aware evaluation setup for better assessment of the information coverage in extracted summaries. specifically , we treat each sentence in the reference summary as a
