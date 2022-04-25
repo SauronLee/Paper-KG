@@ -1,0 +1,1 @@
+Learning Event Graph Knowledge for Abductive Reasoning | Li Du | abductive reasoning aims at inferring the most plausible explanation for observed events , which would play critical roles in various nlp applications , such as reading comprehension and question answering. to facilitate this task , a narrative text based abductive reasoning task

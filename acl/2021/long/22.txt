@@ -1,0 +1,1 @@
+Multi-Head Highly Parallelized LSTM Decoder for Neural Machine Translation | Hongfei Xu | one of the reasons transformer translation models are popular is that self-attention networks for context modelling can be easily parallelized at sequence level. however , the computational complexity of a self-attention network is

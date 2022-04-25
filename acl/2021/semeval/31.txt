@@ -1,0 +1,1 @@
+WVOQ at SemEval-2021 Task 6: BART for Span Detection and Classification | Cees Roele | simultaneous span detection and classification is a task not currently addressed in standard nlp frameworks. the present paper describes why and how an encoderdecoder model was used to combine span detection and classification to address subtask 2 of semeval-2021 task 6.

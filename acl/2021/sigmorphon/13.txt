@@ -1,0 +1,1 @@
+Data augmentation for low-resource grapheme-to-phoneme mapping | Michael Hammond | in this paper we explore a very simple neural approach to mapping orthography to phonetic transcription in a low-resource context. the basic idea is to start from a baseline system and focus all efforts on data augmentation. we will see that some techniques work , but others do not.

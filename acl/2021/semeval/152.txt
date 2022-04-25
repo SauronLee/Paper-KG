@@ -1,0 +1,1 @@
+ES-JUST at SemEval-2021 Task 7: Detecting and Rating Humor and Offensive Text Using Deep Learning | Emran Al Bashabsheh | this research presents the work of the team’s es-just at semeval-2021 task 7 for detecting and rating humor and offensive text using deep learning. the team evaluates several approaches \(

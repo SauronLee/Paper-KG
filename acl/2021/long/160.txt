@@ -1,0 +1,1 @@
+ChineseBERT: Chinese Pretraining Enhanced by Glyph and Pinyin Information | Zijun Sun | recent pretraining models in chinese neglect two important aspects specific to the chinese language: glyph and pinyin , which carry significant syntax and semantic information for language understanding. in this work , we propose chinesebert , which incorporates both the

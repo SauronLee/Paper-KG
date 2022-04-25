@@ -1,0 +1,1 @@
+What is Your Article Based On? Inferring Fine-grained Provenance | Yi Zhang | when evaluating an article and the claims it makes , a critical reader must be able to assess where the information presented comes from , and whether the various claims are mutually consistent and support the conclusion. this motivates the study of

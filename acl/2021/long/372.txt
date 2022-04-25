@@ -1,0 +1,1 @@
+MLBiNet: A Cross-Sentence Collective Event Detection Network | Dongfang Lou | we consider the problem of collectively detecting multiple events , particularly in cross-sentence settings. the key to dealing with the problem is to encode semantic information and model event inter-dependency at a document-level. in this paper , we reformulate it as a seq2seq task and propose a

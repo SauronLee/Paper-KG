@@ -1,0 +1,1 @@
+Graph Rewriting for Enhanced Universal Dependencies | Bruno Guillaume | this paper describes a system proposed for the iwpt 2021 shared task on parsing into enhanced universal dependencies \( eud \) . we propose a graph rewriting based system for computing enhanced universal dependencies , given the basic universal dependencies \( ud \) .
