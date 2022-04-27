@@ -1,0 +1,20 @@
+T1	Titles 0 53	On Finding the K-best Non-projective Dependency Trees
+T2	Persons 56 67	Ran Zmigrod
+T3	Methods 242 268	dependency parsing schemes
+T4	Methods 93 138	the maximum spanning tree in a directed graph
+T5	Methods 143 181	the best dependency tree of a sentence
+R1	Base Arg1:T4 Arg2:T3	
+R2	Base Arg1:T5 Arg2:T3	
+T6	Issues 316 384	the spanning tree must have exactly one edge emanating from the root
+R3	Challenges Arg1:T6 Arg2:T3	
+R5	Author Arg1:T2 Arg2:T1	
+T7	Methods 414 485	efficiently solve this problem for finding the one-best dependency tree
+T8	Methods 541 576	finding the k-best dependency trees
+R4	Existing-Solution Arg1:T7 Arg2:T6	
+T9	Definitions 578 724	this is arguably a more important extension as a larger proportion of decoded trees will not be subject to the root constraint of dependency trees
+R6	Attributes Arg1:T9 Arg2:T8	
+T10	Theories 735 864	we show that the rate of root constraint violations increases by an average of 13 times when decoding with k=50 as opposed to k=1
+R7	Result Arg1:T10 Arg2:T8	
+T11	Methods 893 977	a simplification of the k-best spanning tree algorithm of camerini et al. \( 1980 \)
+R8	Base Arg1:T11 Arg2:T8	
+R9	Contributions Arg1:T8 Arg2:T1	

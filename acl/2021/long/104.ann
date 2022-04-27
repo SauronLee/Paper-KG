@@ -1,0 +1,21 @@
+T1	Titles 0 104	Exploiting Language Relatedness for Low Web-Resource Language Model Adaptation: An Indic Languages Study
+T2	Persons 107 124	Yash Khemchandani
+R1	Author Arg1:T2 Arg2:T1	
+T3	Models 146 174	multilingual language models
+T4	Definitions 207 273	ability to effectively handle multiple languages in a single model
+R2	Attributes Arg1:T4 Arg2:T3	
+T5	Sectors 298 324	low web-resource languages
+T6	Sectors 328 331	lrl
+R3	Acronym Arg1:T6 Arg2:T5	
+T7	Issues 441 576	incorporating a new language in an lm still remains a challenge , particularly for languages with limited corpora and in unseen scripts
+R4	Challenges Arg1:T7 Arg2:T3	
+T8	Sectors 760 776	indian languages
+T9	Theories 606 723	relatedness among languages in a language family may be exploited to overcome some of the corpora limitations of lrls
+T10	Models 738 746	relatelm
+R6	Contributions Arg1:T10 Arg2:T1	
+R5	Base Arg1:T9 Arg2:T10	
+R7	classification Arg1:T8 Arg2:T10	
+T11	Definitions 825 1255	\( 1 \) script \( since many indic scripts originated from the brahmic script \) , and \( 2 \) sentence structure. relatelm uses transliteration to convert the unseen script of limited lrl text into the script of a related prominent language \( rpl \) \( hindi in our case \) . while exploiting similar sentence structures , relatelm utilizes readily available bilingual dictionaries to pseudo translate rpl text into lrl corpora.
+R8	Attributes Arg1:T11 Arg2:T10	
+T12	Theories 1256 1567	experiments on multiple real-world benchmark datasets provide validation to our hypothesis that using a related language as pivot , along with transliteration and pseudo translation based data augmentation , can be an effective way to adapt lms for lrls , rather than direct training or pivoting through english
+R9	Result Arg1:T12 Arg2:T10	

@@ -1,6 +1,14 @@
 # Paper-KG  
 Paper-KG For Conversational Paper Recommender Systems
+
+* http://35.74.43.113/brat  
+* http://35.74.43.113/README  
+
 ### Building Paper-KB rules based on Brat tool    
+
+Maintain the grammar's coherence as much as possible.
+![](./ra_eg.png)
+
 #### Entities  
 
 ```Titles```: Recommendation ending.  
