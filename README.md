@@ -2,7 +2,7 @@
 Paper-KG For Conversational Paper Recommender Systems
 
 * http://35.74.43.113/brat  
-* http://35.74.43.113/README  
+* http://35.74.43.113/README.html  
 
 ### Building Paper-KB rules based on Brat tool    
 
