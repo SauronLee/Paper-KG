@@ -12,3 +12,5 @@ R5	classification Arg1:T6 Arg2:T3
 T7	Datasets 534 540	webnlg
 T8	Datasets 545 548	e2e
 T9	Evaluations 574 769	by using fact-based alignments our approach is more interpretable , expressive , robust to noise , and easier to control , while retaining the advantages of end-to-end systems in terms of fluency
+R6	Base Arg1:T7 Arg2:T9	
+R7	Base Arg1:T8 Arg2:T9	
