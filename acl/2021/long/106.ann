@@ -1,0 +1,20 @@
+T1	Titles 0 49	Towards Argument Mining for Social Good: A Survey
+T2	Persons 52 68	Eva Maria Vecchi
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 93 110	interdisciplinary
+T4	Methods 122 137	argument mining
+R2	classification Arg1:T3 Arg2:T4	
+T5	Methods 141 143	am
+R3	Base Arg1:T5 Arg2:T4	
+T6	Definitions 265 434	we focus on am challenges related to its applications to social media and in the multilingual domain , and then proceed to the widely debated notion of argument quality.
+R4	Attributes Arg1:T6 Arg2:T4	
+T7	Theories 446 573	a novel definition of argument quality which is integrated with that of deliberative quality from the social science literature
+R5	Contributions Arg1:T7 Arg2:T1	
+T8	Definitions 598 866	the quality of a contribution needs to be assessed at multiple levels: the contribution itself , its preceding context , and the consequential effect on the development of the upcoming discourse. the latter has not received the deserved attention within the community.
+R6	Attributes Arg1:T8 Arg2:T7	
+T10	Applications 923 955	\( semi- \) automatic moderation
+T9	Sectors 910 921	social good
+R7	classification Arg1:T9 Arg2:T10	
+T11	Definitions 997 1428	\( a \) represents a challenging testbed for the integrated notion of quality we advocate , \( b \) allows the empirical quantification of argument/deliberative quality to benefit from the developments in other nlp fields \( i.e. hate speech detection , fact checking , debiasing \) , and \( c \) has a clearly beneficial potential at the level of its societal thanks to its real-world application \( even if extremely ambitious \)
+R8	Attributes Arg1:T11 Arg2:T10	
+R9	Contributions Arg1:T10 Arg2:T1	

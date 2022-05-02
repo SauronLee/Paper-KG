@@ -1,0 +1,15 @@
+T1	Titles 0 51	Assessing Emoji Use in Modern Text Processing Tools
+T2	Persons 54 71	Abu Awal Md Shoeb
+R1	Author Arg1:T2 Arg2:T1	
+T3	Theories 713 798	many systems still have notable shortcomings when operating on text containing emojis
+T4	Methods 354 360	assess
+T5	Datasets 402 420	tweets with emojis
+R2	Base Arg1:T5 Arg2:T4	
+T6	Definitions 589 688	consider tokenization , part-of-speech tagging , dependency parsing , as well as sentiment analysis
+R3	Attributes Arg1:T6 Arg2:T4	
+R4	Result Arg1:T3 Arg2:T4	
+R5	Contributions Arg1:T4 Arg2:T1	
+T7	Sectors 74 80	emojis
+T8	Definitions 138 214	their visual appeal as well as their ability to vividly convey human emotion
+R6	Attributes Arg1:T8 Arg2:T7	
+R7	classification Arg1:T7 Arg2:T1	

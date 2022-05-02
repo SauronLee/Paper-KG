@@ -4,10 +4,12 @@ Paper-KG For Conversational Paper Recommender Systems
 * http://35.74.43.113/brat  
 * http://35.74.43.113/README.html  
 
-### Building Paper-KB rules based on Brat tool    
+> add * -> base-> evaluations 20220502
 
-Maintain the grammar's coherence as much as possible.
-![](./ra_eg.png)
+### Building Paper-KB rules based on Brat tool  
+#### Some Shell
+* create .ann file: ```find ./* -name '*.txt'|sed -e 's|\.txt|.ann|g'|xargs touch```  
+* for config updata: ```echo ./acl/*/* | xargs -n 1 cp -f ./annotation.conf```
 
 #### Entities  
 
@@ -40,3 +42,5 @@ Maintain the grammar's coherence as much as possible.
 
 Note: ```annotation.conf``` contains the detailed definitions.  
 
+Maintain the grammar's coherence as much as possible.
+![](./ra_eg.png)

@@ -1,0 +1,24 @@
+T1	Titles 0 81	Dual Slot Selector via Local Reliability Verification for Dialogue State Tracking
+T2	Persons 84 93	Jinyu Guo
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 108 131	dialogue state tracking
+T4	Sectors 135 138	dst
+R2	Acronym Arg1:T4 Arg2:T3	
+R3	classification Arg1:T3 Arg2:T1	
+T5	Definitions 145 219	to predict the current dialogue state given all previous dialogue contexts
+R4	Attributes Arg1:T5 Arg2:T3	
+T6	Issues 251 304	predict the dialogue state at every turn from scratch
+T7	Definitions 316 604	the overwhelming majority of the slots in each turn should simply inherit the slot values from the previous turn. therefore , the mechanism of treating slots equally in each turn not only is inefficient but also may lead to additional errors because of the redundant slot value generation
+R5	Attributes Arg1:T7 Arg2:T6	
+T8	Models 656 663	dss-dst
+T9	Methods 682 739	the dual slot selector based on the current turn dialogue
+T10	Methods 746 800	the slot value generator based on the dialogue history
+R6	Base Arg1:T9 Arg2:T8	
+R7	Base Arg1:T10 Arg2:T8	
+T11	Definitions 802 1142	the dual slot selector determines each slot whether to update slot value or to inherit the slot value from the previous turn from two aspects: \( 1 \) if there is a strong relationship between it and the current turn dialogue utterances; \( 2 \) if a slot value with high reliability can be obtained for it through the current turn dialogue
+R8	Attributes Arg1:T11 Arg2:T9	
+T12	Definitions 1144 1335	the slots selected to be updated are permitted to enter the slot value generator to update values by a hybrid method , while the other slots directly inherit the values from the previous turn
+R9	Attributes Arg1:T12 Arg2:T10	
+T13	Evaluations 1376 1578	achieves 56.93% , 60.73% , and 58.04% joint accuracy on multiwoz 2.0 , multiwoz 2.1 , and multiwoz 2.2 datasets respectively and achieves a new state-of-the-art performance with significant improvements
+R10	Result Arg1:T13 Arg2:T8	
+R11	Contributions Arg1:T8 Arg2:T1	

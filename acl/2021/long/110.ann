@@ -1,0 +1,3 @@
+T1	Titles 0 92	Select, Extract and Generate: Neural Keyphrase Generation with Layer-wise Coverage Attention
+T2	Persons 95 105	Wasi Ahmad
+R1	Author Arg1:T2 Arg2:T1	

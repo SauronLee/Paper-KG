@@ -1,0 +1,15 @@
+T1	Titles 0 63	Factorising Meaning and Form for Intent-Preserving Paraphrasing
+T2	Persons 66 77	Tom Hosking
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 104 126	generating paraphrases
+T4	Definitions 153 212	retain the original intent but use a different surface form
+R2	Attributes Arg1:T4 Arg2:T3	
+R3	classification Arg1:T3 Arg2:T1	
+T5	Evaluations 914 1053	we are able to generate paraphrases with a better tradeoff between semantic preservation and syntactic novelty compared to previous methods
+T6	Methods 422 566	reconstruct a question from a paraphrase with the same meaning and an exemplar with the same surface form , leading to separated encoding spaces
+T7	Models 397 418	encoder-decoder model
+R4	Base Arg1:T7 Arg2:T6	
+T8	Definitions 568 857	we use a vector-quantized variational autoencoder to represent the surface form as a set of discrete latent variables , allowing us to use a classifier to select a different surface form at test time. crucially , our method does not require access to an external source of target exemplars
+R5	Attributes Arg1:T8 Arg2:T6	
+R6	Contributions Arg1:T6 Arg2:T1	
+R7	Result Arg1:T5 Arg2:T6	

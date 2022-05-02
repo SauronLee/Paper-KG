@@ -1,0 +1,14 @@
+T1	Titles 0 49	AggGen: Ordering and Aggregating while Generating
+T2	Persons 52 61	Xinnuo Xu
+R1	Author Arg1:T2 Arg2:T1	
+T3	Models 75 81	agggen
+T4	Sectors 109 127	data-to-text model
+R2	classification Arg1:T4 Arg2:T3	
+R4	Contributions Arg1:T3 Arg2:T1	
+T5	Definitions 134 256	re-introduces two explicit sentence planning stages into neural data-to-text systems: input ordering and input aggregation
+R3	Attributes Arg1:T5 Arg2:T3	
+T6	Sectors 332 342	end-to-end
+R5	classification Arg1:T6 Arg2:T3	
+T7	Datasets 534 540	webnlg
+T8	Datasets 545 548	e2e
+T9	Evaluations 574 769	by using fact-based alignments our approach is more interpretable , expressive , robust to noise , and easier to control , while retaining the advantages of end-to-end systems in terms of fluency
