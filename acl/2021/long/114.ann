@@ -1,0 +1,19 @@
+T1	Titles 0 57	Towards Table-to-Text Generation with Numerical Reasoning
+T2	Persons 60 82	Lya Hulliyyatus Suadaa
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 92 121	neural text generation models
+T5	Models 522 567	a framework consisting of a pre-trained model
+T6	Methods 572 588	a copy mechanism
+T7	Datasets 994 1001	dataset
+T8	Sectors 1006 1040	numerical table-to-text generation
+R4	classification Arg1:T8 Arg2:T7	
+T9	Definitions 1047 1147	pairs of a table and a paragraph of a table description with richer inference from scientific papers
+R5	Attributes Arg1:T9 Arg2:T7	
+T10	Models 1162 1232	a table-to-text generation framework enriched with numerical reasoning
+R2	Base Arg1:T5 Arg2:T10	
+R3	Base Arg1:T6 Arg2:T10	
+T4	Definitions 160 230	generating descriptive text from structured data such as table formats
+R7	Attributes Arg1:T4 Arg2:T8	
+R8	Contributions Arg1:T7 Arg2:T1	
+R9	Contributions Arg1:T10 Arg2:T1	
+R6	classification Arg1:T3 Arg2:T10	

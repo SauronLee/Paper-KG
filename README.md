@@ -22,7 +22,7 @@ Paper-KG For Conversational Paper Recommender Systems
 ```Models```: It is usually to complete a specific task.  
 ```Methods```: A simple procedure or method.  
 ```Issues```: Unresolved or new concerns raised by the writers.  
-```Tasks```: A new task usually comes with a new evaluation dataset or measure.  
+```Tasks```: (1) A new task usually comes with a new evaluation dataset or measure. (2) Near the beginning of the paragraph, followed by the challenge. 
 ```Evaluations```: Metrics for evaluation based on some benchmarks.  
 ```Persons```: Author (Lead author only).  
 

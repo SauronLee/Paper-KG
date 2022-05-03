@@ -1,0 +1,19 @@
+T1	Titles 0 68	Improving Formality Style Transfer with Context-Aware Rule Injection
+T2	Persons 71 82	Zonghai Yao
+R1	Author Arg1:T2 Arg2:T1	
+T3	Models 276 304	context-aware rule injection
+T4	Models 308 312	cari
+R2	Acronym Arg1:T4 Arg2:T3	
+T5	Issues 85 259	models pre-trained on large-scale regular text corpora often do not work well for user-generated data where the language styles differ significantly from the mainstream text.
+R3	Solution Arg1:T3 Arg2:T5	
+T6	Sectors 343 367	formality style transfer
+R4	classification Arg1:T6 Arg2:T3	
+T7	Sectors 371 374	fst
+R5	Acronym Arg1:T7 Arg2:T6	
+T8	Definitions 381 461	injecting multiple rules into an end-to-end bert-based encoder and decoder model
+R6	Attributes Arg1:T8 Arg2:T3	
+R8	Contributions Arg1:T3 Arg2:T1	
+T10	Datasets 1066 1071	gyafc
+T11	Sectors 1045 1048	fst
+R9	classification Arg1:T11 Arg2:T10	
+R7	classification Arg1:T6 Arg2:T10	

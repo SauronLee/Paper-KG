@@ -1,0 +1,26 @@
+T1	Titles 0 77	Language Model as an Annotator: Exploring DialoGPT for Dialogue Summarization
+T2	Persons 80 93	Xiachong Feng
+T3	Sectors 104 126	dialogue summarization
+T4	Definitions 143 231	encode the text with a number of general semantic features \( e.g. , keywords and topics
+R1	Attributes Arg1:T4 Arg2:T3	
+T5	Issues 299 415	these features are obtained via open-domain toolkits that are dialog-agnostic or heavily relied on human annotations
+R2	Challenges Arg1:T5 Arg2:T3	
+R3	Author Arg1:T2 Arg2:T1	
+T6	Methods 445 453	dialogpt
+T7	Models 458 475	pre-trained model
+R4	Base Arg1:T7 Arg2:T6	
+T8	Definitions 480 514	conversational response generation
+R5	Attributes Arg1:T8 Arg2:T7	
+T9	Definitions 517 648	can be developed as an unsupervised dialogue annotator , which takes advantage of dialogue background knowledge encoded in dialogpt
+R6	Attributes Arg1:T9 Arg2:T7	
+R7	Contributions Arg1:T6 Arg2:T1	
+R8	Solution Arg1:T6 Arg2:T5	
+T10	Evaluations 891 999	remarkable improvements on both datasets and achieves new state-of-the-art performance on the samsum dataset
+T11	Datasets 742 748	samsum
+T12	Datasets 753 756	ami
+T13	Sectors 708 739	dialogue summarization datasets
+R9	classification Arg1:T13 Arg2:T11	
+R10	classification Arg1:T13 Arg2:T12	
+R11	Base Arg1:T11 Arg2:T10	
+R12	Base Arg1:T12 Arg2:T10	
+R13	Result Arg1:T10 Arg2:T6	

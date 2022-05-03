@@ -1,0 +1,24 @@
+T1	Titles 0 91	MECT: Multi-Metadata Embedding based Cross-Transformer for Chinese Named Entity Recognition
+T2	Persons 94 103	Shuang Wu
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 170 194	named entity recognition
+T4	Sectors 198 201	ner
+T5	Definitions 162 169	chinese
+T6	Issues 339 438	ignore the information of the chinese character structure after integrating the lexical information
+T7	Definitions 207 305	reducing segmentation errors and increasing the semantic and boundary information of chinese words
+R2	Attributes Arg1:T5 Arg2:T3	
+R3	Acronym Arg1:T4 Arg2:T3	
+R4	Attributes Arg1:T7 Arg2:T3	
+R5	Challenges Arg1:T6 Arg2:T3	
+T8	Models 613 661	multi-metadata embedding based cross-transformer
+T9	Models 665 669	mect
+R6	Base Arg1:T9 Arg2:T8	
+R7	Contributions Arg1:T8 Arg2:T1	
+R8	Solution Arg1:T8 Arg2:T6	
+T10	Sectors 703 714	chinese ner
+R9	classification Arg1:T10 Arg2:T9	
+R10	classification Arg1:T3 Arg2:T9	
+T11	Definitions 718 773	fusing the structural information of chinese characters
+R11	Attributes Arg1:T11 Arg2:T8	
+T12	Evaluations 1089 1208	obtained on several well-known benchmarking datasets demonstrate the merits and superiority of the proposed mect method
+R12	Result Arg1:T12 Arg2:T8	

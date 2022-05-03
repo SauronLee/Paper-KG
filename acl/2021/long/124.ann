@@ -1,0 +1,23 @@
+T1	Titles 0 75	Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection
+T2	Persons 78 88	Lixing Zhu
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 91 108	emotion detection
+T4	Sectors 112 121	dialogues
+R2	classification Arg1:T4 Arg2:T3	
+T5	Issues 140 221	it often requires the identification of thematic topics underlying a conversation
+R3	Challenges Arg1:T5 Arg2:T3	
+T6	Models 358 398	topic-driven knowledge-aware transformer
+R4	Solution Arg1:T6 Arg2:T5	
+T7	Models 451 481	topic-augmented language model
+R5	Base Arg1:T7 Arg2:T6	
+T8	Definitions 496 547	an additional layer specialized for topic detection
+R6	Attributes Arg1:T8 Arg2:T7	
+T9	Definitions 549 691	the topic-augmented lm is then combined with commonsense statements derived from a knowledge base based on the dialogue contextual information
+R7	Attributes Arg1:T9 Arg2:T7	
+T10	Methods 705 751	transformer-based encoder-decoder architecture
+R8	Base Arg1:T10 Arg2:T6	
+T11	Definitions 752 797	fuses the topical and commonsense information
+R9	Attributes Arg1:T11 Arg2:T10	
+R10	Contributions Arg1:T6 Arg2:T1	
+T12	Evaluations 852 1146	the model has been experimented on four datasets in dialogue emotion detection , demonstrating its superiority empirically over the existing state-of-the-art approaches. quantitative and qualitative results show that the model can discover topics which help in distinguishing emotion categories
+R11	Result Arg1:T12 Arg2:T6	

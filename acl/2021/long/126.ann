@@ -1,0 +1,15 @@
+T1	Titles 0 35	Stance Detection in COVID-19 Tweets
+T2	Persons 38 49	Kyle Glandt
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 74 82	covid-19
+T4	Sectors 520 536	stance detection
+T5	Datasets 554 569	covid-19-stance
+R2	classification Arg1:T3 Arg2:T5	
+R3	classification Arg1:T4 Arg2:T5	
+T6	Models 637 660	stance detection models
+R4	classification Arg1:T3 Arg2:T6	
+T7	Definitions 758 906	we employ self-training and domain adaptation approaches to take advantage of large amounts of unlabeled data and existing stance detection datasets
+R5	Attributes Arg1:T7 Arg2:T6	
+R6	Base Arg1:T5 Arg2:T6	
+R7	Contributions Arg1:T6 Arg2:T1	
+R8	Contributions Arg1:T5 Arg2:T1	

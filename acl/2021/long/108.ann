@@ -23,6 +23,8 @@ R11	Contributions Arg1:T3 Arg2:T1
 T12	Evaluations 1028 1170	the best models exploit in-domain language model pre-training on 59k unannotated documents , and incorporate context from neighboring sentence
 R12	Result Arg1:T12 Arg2:T3	
 T13	Sectors 321 336	discharge notes
-R13	classification Arg1:T13 Arg2:T1	
 T14	Definitions 337 411	containing action items to share with patients and their future caregivers
 R14	Attributes Arg1:T14 Arg2:T13	
+R13	classification Arg1:T13 Arg2:T10	
+R15	classification Arg1:T13 Arg2:T3	
+R16	classification Arg1:T13 Arg2:T4	

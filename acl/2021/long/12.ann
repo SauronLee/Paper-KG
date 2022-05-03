@@ -1,0 +1,25 @@
+T1	Titles 0 49	Transferable Dialogue Systems and User Simulators
+T2	Persons 52 67	Bo-Hsiang Tseng
+R1	Author Arg1:T2 Arg2:T1	
+T3	Issues 126 151	the lack of training data
+T4	Sectors 106 122	dialogue systems
+R2	Challenges Arg1:T3 Arg2:T4	
+T5	Methods 183 205	creating dialogue data
+T6	Definitions 214 276	the interaction between a dialogue system and a user simulator
+R3	Attributes Arg1:T6 Arg2:T5	
+R5	Solution Arg1:T5 Arg2:T3	
+T7	Methods 375 407	self-play between the two agents
+T8	Definitions 438 505	pre-train the two agents on a collection of source domain dialogues
+R6	Base Arg1:T7 Arg2:T5	
+R7	Attributes Arg1:T8 Arg2:T7	
+T9	Datasets 808 816	multiwoz
+T10	Tasks 891 908	domain adaptation
+T11	Tasks 918 952	single-to-multiple domain transfer
+R8	Base Arg1:T9 Arg2:T10	
+R9	Base Arg1:T9 Arg2:T11	
+R10	Base Arg1:T10 Arg2:T7	
+R11	Base Arg1:T11 Arg2:T7	
+T12	Theories 954 1088	we demonstrate that the proposed framework is highly effective in bootstrapping the performance of the two agents in transfer learning
+R12	Result Arg1:T12 Arg2:T5	
+R4	Contributions Arg1:T5 Arg2:T1	
+R13	classification Arg1:T4 Arg2:T5	

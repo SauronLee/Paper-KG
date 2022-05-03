@@ -1,0 +1,6 @@
+T1	Titles 0 81	Topic-Aware Evidence Reasoning and Stance-Aware Aggregation for Fact Verification
+T2	Persons 84 95	Jiasheng Si
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 98 115	fact verification
+T4	Issues 143 275	requires simultaneously reasoning and aggregating over multiple retrieved pieces of evidence to evaluate the truthfulness of a claim
+R2	Challenges Arg1:T4 Arg2:T3	

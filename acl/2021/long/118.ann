@@ -1,0 +1,21 @@
+T1	Titles 0 89	A Gradually Soft Multi-Task and Data-Augmented Approach to Medical Question Understanding
+T2	Persons 92 104	Khalil Mrini
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 124 150	question answering systems
+T4	Issues 157 191	submit long and detailed questions
+R2	Challenges Arg1:T4 Arg2:T3	
+T5	Definitions 116 123	medical
+R3	Attributes Arg1:T5 Arg2:T3	
+T6	Methods 300 319	multi-task learning
+T7	Methods 323 326	mtl
+R4	Base Arg1:T7 Arg2:T6	
+T8	Methods 342 359	data augmentation
+R5	Base Arg1:T8 Arg2:T6	
+T9	Sectors 364 394	medical question understanding
+R6	classification Arg1:T9 Arg2:T6	
+R7	Solution Arg1:T6 Arg2:T4	
+T10	Evaluations 965 1095	outperforms existing mtl methods across 4 datasets of medical question pairs , in rouge scores , rqe accuracy and human evaluation
+T11	Evaluations 1120 1199	our method fares better than single-task learning under 4 low-resource settings
+R8	Result Arg1:T10 Arg2:T6	
+R9	Result Arg1:T11 Arg2:T6	
+R10	Contributions Arg1:T6 Arg2:T1	

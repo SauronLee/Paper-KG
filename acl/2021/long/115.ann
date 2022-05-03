@@ -1,0 +1,13 @@
+T1	Titles 0 88	BACO: A Background Knowledge- and Content-Based Framework for Citing Sentence Generation
+T2	Sectors 145 171	citing sentence generation
+T3	Definitions 180 317	entails generating a short text to capture the salient information in a cited paper and the connection between the citing and cited paper
+R1	Attributes Arg1:T3 Arg2:T2	
+T4	Models 330 334	baco
+R2	classification Arg1:T2 Arg2:T4	
+T5	Definitions 337 419	a background knowledge- and content-based framework for citing sentence generation
+R3	Attributes Arg1:T5 Arg2:T4	
+T6	Evaluations 1131 1164	outperforms comparative baselines
+R4	Result Arg1:T6 Arg2:T4	
+R5	Contributions Arg1:T4 Arg2:T1	
+T7	Persons 91 99	Yubin Ge
+R6	Author Arg1:T7 Arg2:T1	

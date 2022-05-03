@@ -4,7 +4,6 @@ R1	Author Arg1:T2 Arg2:T1
 T3	Sectors 108 131	dialogue state tracking
 T4	Sectors 135 138	dst
 R2	Acronym Arg1:T4 Arg2:T3	
-R3	classification Arg1:T3 Arg2:T1	
 T5	Definitions 145 219	to predict the current dialogue state given all previous dialogue contexts
 R4	Attributes Arg1:T5 Arg2:T3	
 T6	Issues 251 304	predict the dialogue state at every turn from scratch
@@ -22,3 +21,5 @@ R9	Attributes Arg1:T12 Arg2:T10
 T13	Evaluations 1376 1578	achieves 56.93% , 60.73% , and 58.04% joint accuracy on multiwoz 2.0 , multiwoz 2.1 , and multiwoz 2.2 datasets respectively and achieves a new state-of-the-art performance with significant improvements
 R10	Result Arg1:T13 Arg2:T8	
 R11	Contributions Arg1:T8 Arg2:T1	
+R3	classification Arg1:T3 Arg2:T8	
+R12	Solution Arg1:T8 Arg2:T6	

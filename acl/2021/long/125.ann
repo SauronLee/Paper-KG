@@ -1,0 +1,19 @@
+T1	Titles 0 55	Syntopical Graphs for Computational Argumentation Tasks
+T2	Persons 58 68	Joe Barrow
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 85 118	computational argumentation tasks
+T4	Definitions 127 164	stance detection and aspect detection
+R2	Attributes Arg1:T4 Arg2:T3	
+T5	Issues 165 303	have largely focused on the text of independent claims , losing out on potentially valuable context provided by the rest of the collection
+R3	Challenges Arg1:T5 Arg2:T3	
+T6	Methods 553 569	syntopical graph
+T7	Definitions 498 533	to capture collection-level context
+T8	Methods 320 336	general approach
+R4	Attributes Arg1:T7 Arg2:T8	
+R5	Base Arg1:T6 Arg2:T8	
+T9	Definitions 651 809	a typed multi-graph where nodes represent claims and edges represent different possible pairwise relationships , such as entailment , paraphrase , or support.
+R6	Attributes Arg1:T9 Arg2:T6	
+T10	Evaluations 810 1042	experiments applying syntopical graphs to the problems of detecting stance and aspects demonstrate state-of-the-art performance in each domain , significantly outperforming approaches that do not utilize collection-level information
+R7	Result Arg1:T10 Arg2:T8	
+R8	Contributions Arg1:T8 Arg2:T1	
+R9	Base Arg1:T3 Arg2:T8	

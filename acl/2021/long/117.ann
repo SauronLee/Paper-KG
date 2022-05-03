@@ -1,0 +1,20 @@
+T1	Titles 0 84	Challenges in Information-Seeking QA: Unanswerable Questions and Paragraph Retrieval
+T2	Persons 87 97	Akari Asai
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 148 169	reading comprehension
+T4	Models 107 133	pretrained language models
+T5	Definitions 203 247	written with access to the evidence document
+T6	Issues 259 407	datasets containing information-seeking queries where evidence documents are provided after the queries are written independently remain challenging
+R2	Attributes Arg1:T5 Arg2:T4	
+R3	classification Arg1:T3 Arg2:T4	
+R4	Challenges Arg1:T6 Arg2:T4	
+T7	Definitions 953 1017	manually annotate 800 unanswerable examples across six languages
+T8	Datasets 1324 1331	dataset
+R5	Attributes Arg1:T7 Arg2:T8	
+T9	Definitions 1081 1210	we conduct per-category answerability prediction , revealing issues in the current dataset collection as well as task formulation
+T10	Models 1345 1350	model
+R6	Attributes Arg1:T9 Arg2:T10	
+T11	Theories 1223 1312	our study points to avenues for future research in information-seeking question answering
+R7	Result Arg1:T11 Arg2:T10	
+R8	Contributions Arg1:T10 Arg2:T1	
+R9	Contributions Arg1:T8 Arg2:T1	

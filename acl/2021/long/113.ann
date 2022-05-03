@@ -1,0 +1,17 @@
+T1	Titles 0 88	Reflective Decoding: Beyond Unidirectional Generation with Off-the-Shelf Language Models
+T2	Persons 91 101	Peter West
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 125 157	large pretrained language models
+T4	Sectors 161 164	lms
+R2	Acronym Arg1:T4 Arg2:T3	
+T5	Issues 212 443	only sequentially from left to right. as a result , they are not immediately applicable to generation tasks that break the unidirectional assumption , such as paraphrasing or text-infilling , necessitating task-specific supervision
+R3	Challenges Arg1:T5 Arg2:T3	
+T6	Methods 472 491	reflective decoding
+T7	Sectors 502 514	unsupervised
+R5	classification Arg1:T7 Arg2:T6	
+R6	Contributions Arg1:T6 Arg2:T1	
+T8	Definitions 530 605	allows for direct application of unidirectional lms to non-sequential tasks
+R7	Attributes Arg1:T8 Arg2:T6	
+T9	Evaluations 1318 1423	reflective decoding surpasses multiple supervised baselines on various metrics including human evaluation
+R8	Result Arg1:T9 Arg2:T6	
+R4	Solution Arg1:T6 Arg2:T5	
