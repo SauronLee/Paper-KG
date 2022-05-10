@@ -1,0 +1,9 @@
+T1	Titles 0 58	Bad Seeds: Evaluating Lexical Methods for Bias Measurement
+T2	Persons 61 75	Maria Antoniak
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 97 113	bias measurement
+T4	Issues 129 218	use of hand-curated seed lexicons , but there remains little guidance for their selection
+R2	Challenges Arg1:T4 Arg2:T3	
+T5	Methods 220 511	we gather seeds used in prior work , documenting their common sources and rationales , and in case studies of three english-language corpora , we enumerate the different types of social biases and linguistic features that , once encoded in the seeds , can affect subsequent bias measurements
+R3	Contributions Arg1:T5 Arg2:T1	
+R4	Solution Arg1:T5 Arg2:T4	

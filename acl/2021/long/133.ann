@@ -1,0 +1,17 @@
+T1	Titles 0 80	I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling
+T2	Persons 83 92	Yixin Nie
+R1	Author Arg1:T2 Arg2:T1	
+T3	Issues 95 203	to quantify how well natural language understanding models can capture consistency in a general conversation
+T4	Tasks 223 260	dialogue contradiction detection task
+T5	Definitions 323 372	human-human and human-bot contradictory dialogues
+T6	Datasets 284 306	conversational dataset
+R2	Attributes Arg1:T5 Arg2:T6	
+R3	Solution Arg1:T4 Arg2:T3	
+R4	Solution Arg1:T6 Arg2:T3	
+T7	Theories 841 1080	we also show that our best contradiction detection model correlates well with human judgments and further provide evidence for its usage in both automatically evaluating and improving the consistency of state-of-the-art generative chatbots
+T8	Definitions 396 594	our newly collected dataset is notably more effective at providing supervision for the dialogue contradiction detection task than existing nli data including those aimed to cover the dialogue domain
+R5	Attributes Arg1:T8 Arg2:T6	
+T9	Definitions 605 839	transformer models that explicitly hinge on utterance structures for dialogue contradiction detection are more robust and generalize well on both analysis and out-of-distribution dialogues than standard \( unstructured \) transformers
+R7	Contributions Arg1:T4 Arg2:T1	
+R8	Contributions Arg1:T6 Arg2:T1	
+R6	Attributes Arg1:T9 Arg2:T4	

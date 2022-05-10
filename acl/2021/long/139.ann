@@ -1,0 +1,31 @@
+T1	Titles 0 82	Named Entity Recognition with Small Strongly Labeled and Large Weakly Labeled Data
+T2	Persons 85 98	Haoming Jiang
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 198 222	named entity recognition
+T4	Tasks 226 229	ner
+R2	Acronym Arg1:T4 Arg2:T3	
+T5	Methods 101 117	weak supervision
+R3	Base Arg1:T5 Arg2:T3	
+T6	Issues 235 531	existing work mainly focuses on learning deep ner models only with weak supervision , i.e. , without any human annotation , and shows that by merely using weakly labeled data , one can achieve good performance , though still underperforms fully supervised ner with manually/strongly labeled data.
+R4	Challenges Arg1:T6 Arg2:T3	
+T7	Models 1025 1060	multi-stage computational framework
+T8	Methods 1112 1133	weak label completion
+T9	Methods 1144 1169	noise-aware loss function
+T10	Methods 1184 1232	final fine-tuning over the strongly labeled data
+R5	Base Arg1:T8 Arg2:T7	
+R6	Base Arg1:T10 Arg2:T7	
+R7	Base Arg1:T9 Arg2:T7	
+R8	Contributions Arg1:T7 Arg2:T1	
+R9	Solution Arg1:T7 Arg2:T6	
+T11	Evaluations 1234 1412	through experiments on e-commerce query ner and biomedical ner , we demonstrate that needle can effectively suppress the noise of the weak labels and outperforms existing methods
+R10	Result Arg1:T11 Arg2:T7	
+T12	Datasets 1490 1501	bc5cdr-chem
+T13	Datasets 1510 1524	bc5cdr-disease
+T14	Datasets 1533 1545	ncbi-disease
+T15	Definitions 1465 1488	biomedical ner datasets
+R11	Attributes Arg1:T15 Arg2:T12	
+R12	Attributes Arg1:T15 Arg2:T13	
+R13	Attributes Arg1:T15 Arg2:T14	
+R14	Base Arg1:T12 Arg2:T11	
+R15	Base Arg1:T13 Arg2:T11	
+R16	Base Arg1:T14 Arg2:T11	

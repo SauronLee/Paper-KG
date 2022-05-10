@@ -1,0 +1,26 @@
+T1	Titles 0 66	A Systematic Investigation of KB-Text Embedding Alignment at Scale
+T2	Persons 69 83	Vardaan Pahuja
+R1	Author Arg1:T2 Arg2:T1	
+T3	Datasets 105 108	kbs
+T4	Datasets 86 101	knowledge bases
+R2	Acronym Arg1:T3 Arg2:T4	
+T7	Datasets 1061 1069	covid-19
+T8	Methods 765 781	evaluation tasks
+T9	Methods 735 755	evaluation framework
+T10	Definitions 784 833	few-shot link prediction and analogical reasoning
+R4	Attributes Arg1:T10 Arg2:T9	
+T6	Definitions 840 896	evaluate an array of kb-text embedding alignment methods
+R5	Attributes Arg1:T6 Arg2:T8	
+T11	Methods 700 715	joint reasoning
+R6	Base Arg1:T4 Arg2:T11	
+R7	Base Arg1:T11 Arg2:T9	
+R8	Base Arg1:T11 Arg2:T8	
+R9	Contributions Arg1:T9 Arg2:T1	
+R10	Contributions Arg1:T8 Arg2:T1	
+T12	Datasets 673 675	kb
+T13	Datasets 680 684	text
+R11	Base Arg1:T12 Arg2:T11	
+R12	Base Arg1:T13 Arg2:T11	
+T5	Issues 160 607	kbs store structured knowledge that can support long range reasoning , while text stores more comprehensive and timely knowledge in an unstructured way. separately embedding the individual knowledge sources into vector spaces has demonstrated tremendous successes in encoding the respective knowledge , but how to jointly embed and reason with both knowledge sources to fully leverage the complementary information is still largely an open problem
+R3	Solution Arg1:T11 Arg2:T5	
+R13	Contributions Arg1:T11 Arg2:T1	

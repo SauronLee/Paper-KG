@@ -1,0 +1,17 @@
+T1	Titles 0 68	Poisoning Knowledge Graph Embeddings via Relation Inference Patterns
+T2	Persons 71 84	Peru Bhardwaj
+R1	Author Arg1:T2 Arg2:T1	
+T3	Sectors 153 178	knowledge graph embedding
+T4	Sectors 182 185	kge
+R2	Acronym Arg1:T4 Arg2:T3	
+T5	Tasks 127 144	poisoning attacks
+R3	classification Arg1:T3 Arg2:T5	
+T6	Methods 531 596	improve the model’s prediction confidence on a set of decoy facts
+T7	Definitions 605 738	we craft adversarial additions that can improve the model’s prediction confidence on decoy facts through different inference patterns
+R4	Attributes Arg1:T7 Arg2:T6	
+T8	Issues 212 247	link prediction in knowledge graphs
+R5	Challenges Arg1:T8 Arg2:T5	
+R6	Solution Arg1:T6 Arg2:T8	
+T9	Evaluations 740 892	our experiments demonstrate that the proposed poisoning attacks outperform state-of-art baselines on four kge models for two publicly available datasets
+R7	Result Arg1:T9 Arg2:T6	
+R8	Contributions Arg1:T6 Arg2:T1	

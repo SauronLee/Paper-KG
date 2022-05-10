@@ -1,0 +1,19 @@
+T1	Titles 0 58	A Sequence-to-Sequence Approach to Dialogue State Tracking
+T2	Persons 61 69	Yue Feng
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 101 124	dialogue state tracking
+T4	Tasks 128 131	dst
+R2	Acronym Arg1:T4 Arg2:T3	
+T5	Sectors 140 169	task-oriented dialogue system
+R3	classification Arg1:T5 Arg2:T3	
+T6	Issues 171 246	building a dst module that is highly effective is still a challenging issue
+R4	Challenges Arg1:T6 Arg2:T3	
+T7	Methods 385 395	seq2seq-du
+R5	Solution Arg1:T7 Arg2:T6	
+T9	Definitions 398 452	which formalizes dst as a sequence-to-sequence problem
+R6	Attributes Arg1:T9 Arg2:T7	
+T8	Definitions 454 759	seq2seq-du employs two bert-based encoders to respectively encode the utterances in the dialogue and the descriptions of schemas , an attender to calculate attentions between the utterance embeddings and the schema embeddings , and a decoder to generate pointers to represent the current state of dialogue
+R7	Attributes Arg1:T8 Arg2:T7	
+T10	Evaluations 1148 1346	experimental results on benchmark datasets in different settings \( sgd , multiwoz2.2 , multiwoz2.1 , woz2.0 , dstc2 , m2m , snips , and atis \) show that seq2seq-du outperforms the existing methods
+R8	Result Arg1:T10 Arg2:T7	
+R9	Contributions Arg1:T7 Arg2:T1	

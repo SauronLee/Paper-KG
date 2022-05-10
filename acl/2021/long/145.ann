@@ -1,0 +1,13 @@
+T1	Titles 0 78	Knowledgeable or Educated Guess? Revisiting Language Models as Knowledge Bases
+T2	Persons 81 89	Boxi Cao
+R1	Author Arg1:T2 Arg2:T1	
+T3	Models 161 165	mlms
+T4	Models 135 157	masked language models
+R2	Acronym Arg1:T3 Arg2:T4	
+T5	Methods 123 134	pre-trained
+R3	Base Arg1:T5 Arg2:T4	
+T6	Issues 308 333	reliable knowledge source
+R4	Challenges Arg1:T6 Arg2:T4	
+T7	Theories 526 779	previous decent performance mainly owes to the biased prompts which overfit dataset artifacts. furthermore , incorporating illustrative cases and external contexts improve knowledge prediction mainly due to entity type guidance and golden answer leakage
+R5	Solution Arg1:T7 Arg2:T6	
+R6	Contributions Arg1:T7 Arg2:T1	

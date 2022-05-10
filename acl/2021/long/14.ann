@@ -1,0 +1,22 @@
+T1	Titles 0 103	GL-GIN: Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling
+T2	Persons 106 114	Libo Qin
+R1	Author Arg1:T2 Arg2:T1	
+T3	Models 552 592	global-locally graph interaction network
+T4	Models 596 602	gl-gin
+R2	Acronym Arg1:T4 Arg2:T3	
+T5	Models 117 133	multi-intent slu
+T6	Definitions 134 177	can handle multiple intents in an utterance
+R4	Attributes Arg1:T6 Arg2:T5	
+T7	Issues 266 307	heavily rely on autoregressive approaches
+T8	Issues 335 379	slow inference speed and information leakage
+R5	Challenges Arg1:T8 Arg2:T5	
+R6	Challenges Arg1:T7 Arg2:T5	
+R7	Solution Arg1:T3 Arg2:T8	
+R8	Solution Arg1:T3 Arg2:T7	
+T9	Methods 410 434	non-autoregressive model
+T10	Methods 439 487	joint multiple intent detection and slot filling
+R10	Base Arg1:T9 Arg2:T3	
+R11	Base Arg1:T10 Arg2:T3	
+T11	Evaluations 883 1018	experimental results on two public datasets show that our framework achieves state-of-the-art performance while being 11.5 times faster
+R12	Result Arg1:T11 Arg2:T3	
+R3	Contributions Arg1:T3 Arg2:T1	

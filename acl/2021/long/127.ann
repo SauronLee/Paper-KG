@@ -4,3 +4,12 @@ R1	Author Arg1:T2 Arg2:T1
 T3	Tasks 98 115	fact verification
 T4	Issues 143 275	requires simultaneously reasoning and aggregating over multiple retrieved pieces of evidence to evaluate the truthfulness of a claim
 R2	Challenges Arg1:T4 Arg2:T3	
+T5	Methods 307 687	\( i \) explore the semantic interaction between the claim and evidence at different granularity levels but fail to capture their topical consistency during the reasoning process , which we believe is crucial for verification; \( ii \) aggregate multiple pieces of evidence equally without considering their implicit stances to the claim , thereby introducing spurious information
+R3	Existing-Solution Arg1:T5 Arg2:T4	
+T6	Models 740 805	topic-aware evidence reasoning and stance-aware aggregation model
+R4	Base Arg1:T3 Arg2:T6	
+T7	Definitions 884 1206	1 \) checking topical consistency between the claim and evidence; 2 \) maintaining topical coherence among multiple pieces of evidence; 3 \) ensuring semantic similarity between the global topic information and the semantic representation of evidence; 4 \) aggregating evidence based on their implicit stances to the claim
+R5	Attributes Arg1:T7 Arg2:T6	
+R6	Contributions Arg1:T6 Arg2:T1	
+T8	Evaluations 1208 1382	extensive experiments conducted on the two benchmark datasets demonstrate the superiority of the proposed model over several state-of-the-art approaches for fact verification
+R7	Result Arg1:T8 Arg2:T6	

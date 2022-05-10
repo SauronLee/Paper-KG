@@ -1,0 +1,15 @@
+T1	Titles 0 61	Intrinsic Bias Metrics Do Not Correlate with Application Bias
+T2	Persons 64 90	Seraphina Goldfarb-Tarrant
+R1	Author Arg1:T2 Arg2:T1	
+T3	Issues 93 255	natural language processing \( nlp \) systems learn harmful societal biases that cause them to amplify inequality as they are deployed in more and more situations
+T4	Methods 382 553	some of these metrics are intrinsic , measuring bias in word embedding spaces , and some are extrinsic , measuring bias in downstream tasks that the word embeddings enable
+R2	Existing-Solution Arg1:T4 Arg2:T3	
+T5	Issues 555 621	do these intrinsic and extrinsic metrics correlate with each other
+T6	Theories 756 873	our results show no reliable correlation between these metrics that holds in all scenarios across tasks and languages
+T7	Methods 625 754	we compare intrinsic and extrinsic metrics across hundreds of trained models covering different tasks and experimental conditions
+R3	Solution Arg1:T7 Arg2:T5	
+R4	Result Arg1:T6 Arg2:T7	
+R5	Challenges Arg1:T5 Arg2:T4	
+T8	Datasets 1132 1191	an annotated test set focused on gender bias in hate speech
+R6	Contributions Arg1:T8 Arg2:T1	
+R7	Contributions Arg1:T7 Arg2:T1	

@@ -1,0 +1,18 @@
+T1	Titles 0 94	InfoSurgeon: Cross-Media Fine-grained Information Consistency Checking for Fake News Detection
+T2	Persons 97 104	Yi Fung
+T3	Issues 107 196	to defend against machine-generated fake news , an effective mechanism is urgently needed
+T4	Tasks 234 253	fake news detection
+T5	Sectors 261 284	knowledge element level
+R1	classification Arg1:T5 Arg2:T4	
+R2	Author Arg1:T2 Arg2:T1	
+T6	Datasets 220 229	benchmark
+R3	Base Arg1:T4 Arg2:T6	
+R4	Solution Arg1:T6 Arg2:T3	
+T7	Methods 516 537	data synthesis method
+T8	Definitions 541 687	manipulating knowledge elements within the knowledge graph to generate noisy training data with specific , hard to detect , known inconsistencies.
+R5	Attributes Arg1:T8 Arg2:T7	
+T9	Definitions 688 832	our detection approach outperforms the state-of-the-art \( up to 16.8% accuracy gain \) , and more critically , yields fine-grained explanations
+R6	Attributes Arg1:T9 Arg2:T7	
+R7	Solution Arg1:T7 Arg2:T3	
+R8	Contributions Arg1:T7 Arg2:T1	
+R9	Contributions Arg1:T6 Arg2:T1	

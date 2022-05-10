@@ -1,0 +1,21 @@
+T1	Titles 0 112	A Joint Model for Dropped Pronoun Recovery and Conversational Discourse Parsing in Chinese Conversational Speech
+T2	Persons 115 128	Jingxuan Yang
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 183 207	dropped pronoun recovery
+T4	Tasks 211 214	dpr
+R2	Acronym Arg1:T4 Arg2:T3	
+T5	Tasks 222 254	conversational discourse parsing
+T6	Tasks 258 261	cdp
+R3	Acronym Arg1:T6 Arg2:T5	
+T7	Sectors 268 297	chinese conversational speech
+T8	Models 160 172	neural model
+R6	Base Arg1:T3 Arg2:T8	
+R4	classification Arg1:T7 Arg2:T8	
+R5	Base Arg1:T5 Arg2:T8	
+T9	Definitions 177 182	joint
+R7	Attributes Arg1:T9 Arg2:T8	
+T10	Models 410 421	discproreco
+R8	Contributions Arg1:T10 Arg2:T1	
+R9	Base Arg1:T8 Arg2:T10	
+T11	Evaluations 1199 1354	experimental results on the spdpr dataset and other benchmarks show that discproreco significantly outperforms the state-of-the-art baselines of both tasks
+R10	Result Arg1:T11 Arg2:T10	

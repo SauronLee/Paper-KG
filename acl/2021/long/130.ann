@@ -1,0 +1,12 @@
+T1	Titles 0 88	A Survey of Code-switching: Linguistic and Social Perspectives for Language Technologies
+T2	Persons 91 106	A. Seza Doğruöz
+R1	Author Arg1:T2 Arg2:T1	
+T3	Issues 252 486	much of this research focuses mainly on the improvement of computational methods and largely ignores linguistic and social aspects of c-s discussed across a wide range of languages within the long-established literature in linguistics
+T4	Sectors 139 157	multiple languages
+T6	Theories 528 652	code-switching \( c-s \) covering the literature in linguistics with a reflection on the key issues in language technologies
+R2	Challenges Arg1:T3 Arg2:T4	
+R3	Solution Arg1:T6 Arg2:T3	
+R4	classification Arg1:T4 Arg2:T6	
+R5	Contributions Arg1:T6 Arg2:T1	
+T5	Definitions 688 1190	we provide an overview of structural and functional patterns of c-s focusing on the literature from european and indian contexts as highly multilingual areas. from the language technologies perspective , we discuss how massive language models fail to represent diverse c-s types due to lack of appropriate training data , lack of robust evaluation benchmarks for c-s \( across multilingual situations and types of c-s \) and lack of end-to- end systems that cover sociolinguistic aspects of c-s as well
+R6	Attributes Arg1:T5 Arg2:T6	

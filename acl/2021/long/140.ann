@@ -1,0 +1,21 @@
+T1	Titles 0 75	Ultra-Fine Entity Typing with Weak Supervision from a Masked Language Model
+T2	Persons 78 91	Hongliang Dai
+R1	Author Arg1:T2 Arg2:T1	
+T4	Tasks 336 365	ultra-fine entity typing task
+T3	Definitions 213 309	labeling noun phrases including pronouns and nominal nouns instead of just named entity mentions
+R2	Attributes Arg1:T3 Arg2:T4	
+T5	Issues 374 511	human annotated data are extremely scarce , and the annotation ability of existing distant or weak supervision approaches is very limited
+R3	Challenges Arg1:T5 Arg2:T4	
+T6	Models 634 655	masked language model
+T7	Models 659 662	mlm
+R4	Base Arg1:T7 Arg2:T6	
+T8	Methods 568 588	obtain training data
+T9	Tasks 593 617	ultra-fine entity typing
+R5	Base Arg1:T9 Arg2:T8	
+R6	Base Arg1:T6 Arg2:T8	
+R7	Solution Arg1:T8 Arg2:T5	
+T10	Definitions 668 847	given a mention in a sentence , our approach constructs an input for the bert mlm so that it predicts context dependent hypernyms of the mention , which can be used as type labels
+R8	Attributes Arg1:T10 Arg2:T8	
+T11	Theories 889 1161	with the help of these automatically generated labels , the performance of an ultra-fine entity typing model can be improved substantially. we also show that our approach can be applied to improve traditional fine-grained entity typing after performing simple type mapping
+R9	Result Arg1:T11 Arg2:T8	
+R10	Contributions Arg1:T8 Arg2:T1	

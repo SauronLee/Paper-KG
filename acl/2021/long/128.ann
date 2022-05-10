@@ -1,0 +1,17 @@
+T1	Titles 0 124	Changes in European Solidarity Before and During COVID-19: Evidence from a Large Crowd- and Expert-Annotated Twitter Dataset
+T2	Persons 127 140	Alexandra Ils
+R1	Author Arg1:T2 Arg2:T1	
+T3	Definitions 232 262	contestation , anti-solidarity
+T4	Definitions 402 410	covid-19
+T5	Datasets 513 547	\( anti- \) solidarity expressions
+T6	Definitions 478 508	2.3k english and german tweets
+R2	Attributes Arg1:T6 Arg2:T5	
+R3	Attributes Arg1:T4 Arg2:T5	
+R4	Attributes Arg1:T3 Arg2:T5	
+R5	Contributions Arg1:T5 Arg2:T1	
+T7	Models 679 689	bert model
+T8	Definitions 695 732	multiple data augmentation strategies
+R6	Attributes Arg1:T8 Arg2:T7	
+R7	Base Arg1:T5 Arg2:T7	
+T9	Evaluations 738 936	augmented bert model that combines both expert and crowd annotations outperforms the baseline bert classifier trained with expert annotations only by over 25 points , from 58% macro-f1 to almost 85%
+R8	Result Arg1:T9 Arg2:T7	

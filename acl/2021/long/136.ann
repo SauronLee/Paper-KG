@@ -1,0 +1,17 @@
+T1	Titles 0 65	Dialogue Response Selection with Hierarchical Curriculum Learning
+T2	Persons 68 77	Yixuan Su
+R1	Author Arg1:T2 Arg2:T1	
+T3	Issues 192 273	models trained with random negative samples are not ideal in real-world scenarios
+T4	Tasks 126 153	dialogue response selection
+T5	Models 107 121	matching model
+R2	Base Arg1:T4 Arg2:T5	
+R3	Challenges Arg1:T3 Arg2:T5	
+T6	Models 289 331	hierarchical curriculum learning framework
+R4	Contributions Arg1:T6 Arg2:T1	
+R5	Solution Arg1:T6 Arg2:T3	
+T7	Definitions 337 395	trains the matching model in an “easy-to-difficult” scheme
+R6	Attributes Arg1:T7 Arg2:T6	
+T8	Definitions 397 550	our learning framework consists of two complementary curricula: \( 1 \) corpus-level curriculum \( cc \) ; and \( 2 \) instance-level curriculum \( ic \)
+R7	Attributes Arg1:T8 Arg2:T6	
+T9	Evaluations 847 1064	empirical studies on three benchmark datasets with three state-of-the-art matching models demonstrate that the proposed learning framework significantly improves the model performance across various evaluation metrics
+R8	Result Arg1:T9 Arg2:T6	

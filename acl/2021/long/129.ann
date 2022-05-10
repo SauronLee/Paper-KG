@@ -1,0 +1,16 @@
+T1	Titles 0 77	Measuring Conversational Uptake: A Case Study on Student-Teacher Interactions
+T2	Persons 80 96	Dorottya Demszky
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 117 123	uptake
+T4	Sectors 102 114	conversation
+R2	classification Arg1:T4 Arg2:T3	
+T5	Definitions 124 195	happens when a speaker builds on the contribution of their interlocutor
+R3	Attributes Arg1:T5 Arg2:T3	
+T6	Definitions 279 381	in education , teachers’ uptake of student contributions has been linked to higher student achievement
+R4	Attributes Arg1:T6 Arg2:T3	
+T7	Issues 387 513	measuring and improving teachers’ uptake at scale is challenging , as existing methods require expensive annotation by experts
+T8	Models 542 574	computationally measuring uptake
+T9	Definitions 580 996	\( 1 \) releasing a dataset of student-teacher exchanges extracted from us math classroom transcripts annotated for uptake by experts; \( 2 \) formalizing uptake as pointwise jensen-shannon divergence \( pjsd \) , estimated via next utterance classification; \( 3 \) conducting a linguistically-motivated comparison of different unsupervised measures and \( 4 \) correlating these measures with educational outcomes.
+T10	Theories 997 1223	we find that although repetition captures a significant part of uptake , pjsd outperforms repetition-based baselines , as it is capable of identifying a wider range of uptake phenomena like question answering and reformulation
+R5	Result Arg1:T10 Arg2:T8	
+R6	Attributes Arg1:T9 Arg2:T8	

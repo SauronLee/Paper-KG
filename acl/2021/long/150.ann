@@ -1,0 +1,21 @@
+T1	Titles 0 101	RedditBias: A Real-World Resource for Bias Evaluation and Debiasing of Conversational Language Models
+T2	Persons 104 119	Soumya Barikeri
+R1	Author Arg1:T2 Arg2:T1	
+T3	Issues 122 361	text representation models are prone to exhibit a range of societal biases , reflecting the non-controlled and biased nature of the underlying pretraining data , which consequently leads to severe ethical issues and even bias amplification
+T4	Methods 363 463	recent work has predominantly focused on measuring and mitigating bias in pretrained language models
+R2	Existing-Solution Arg1:T4 Arg2:T3	
+T5	Issues 480 607	the landscape of bias measurements and mitigation resources and methods for conversational language models is still very scarce
+T6	Definitions 609 841	it is limited to only a few types of bias , artificially constructed resources , and completely ignores the impact that debiasing methods may have on the final perfor mance in dialog tasks , e.g. , conversational response generation
+R3	Attributes Arg1:T6 Arg2:T5	
+R4	Challenges Arg1:T5 Arg2:T4	
+T7	Datasets 869 879	redditbias
+T8	Definitions 892 915	conversational data set
+T9	Definitions 932 970	actual human conversations from reddit
+R5	Attributes Arg1:T8 Arg2:T7	
+R6	Attributes Arg1:T9 Arg2:T7	
+T10	Definitions 973 1097	allowing for bias measurement and mitigation across four important bias dimensions: gender , race , religion , and queerness
+R7	Attributes Arg1:T10 Arg2:T7	
+T11	Evaluations 1298 1621	we use the evaluation framework to benchmark the widely used conversational dialogpt model along with the adaptations of four debiasing methods. our results indicate that dialogpt is biased with respect to religious groups and that some debiasing techniques can remove this bias while preserving downstream task performance
+R8	Result Arg1:T11 Arg2:T7	
+R9	Solution Arg1:T7 Arg2:T5	
+R10	Contributions Arg1:T7 Arg2:T1	

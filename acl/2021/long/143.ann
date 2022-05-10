@@ -1,0 +1,15 @@
+T1	Titles 0 75	Causal Analysis of Syntactic Agreement Mechanisms in Neural Language Models
+T2	Persons 78 95	Matthew Finlayson
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 98 128	targeted syntactic evaluations
+T4	Theories 147 236	the ability of language models to perform subject-verb agreement given difficult contexts
+R2	Base Arg1:T3 Arg2:T4	
+T5	Issues 238 265	to elucidate the mechanisms
+R3	Challenges Arg1:T5 Arg2:T4	
+T6	Methods 324 395	applies causal mediation analysis to pre-trained neural language models
+R4	Solution Arg1:T6 Arg2:T5	
+T7	Theories 601 752	we uncover similarities and differences across architectures and model sizes—notably , that larger models do not necessarily learn stronger preferences
+T8	Theories 754 1016	we also observe two distinct mechanisms for producing subject-verb agreement depending on the syntactic structure of the input sentence. finally , we find that language models rely on similar sets of neurons when given sentences with similar syntactic structure.
+R5	Result Arg1:T7 Arg2:T6	
+R6	Result Arg1:T8 Arg2:T6	
+R7	Contributions Arg1:T6 Arg2:T1	

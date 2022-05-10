@@ -1,0 +1,21 @@
+T1	Titles 0 64	Accelerating BERT Inference for Sequence Labeling via Early-Exit
+T2	Persons 67 77	Xiaonan Li
+R1	Author Arg1:T2 Arg2:T1	
+T3	Models 203 221	pre-trained models
+T4	Models 225 229	ptms
+R2	Acronym Arg1:T4 Arg2:T3	
+T5	Issues 320 351	computational cost is expensive
+R3	Challenges Arg1:T5 Arg2:T3	
+T6	Methods 413 433	early-exit mechanism
+R4	Existing-Solution Arg1:T6 Arg2:T5	
+T7	Methods 679 732	sentence-level early-exit for sequence labeling tasks
+R5	Solution Arg1:T7 Arg2:T5	
+T8	Methods 795 827	token-level early-exit mechanism
+T9	Definitions 833 888	allows partial tokens to exit early at different layers
+R6	Attributes Arg1:T9 Arg2:T8	
+T10	Evaluations 1187 1513	the extensive experiments on three popular sequence labeling tasks show that our approach can save up to 66%∼75% inference cost with minimal performance degradation. compared with competitive compressed models such as distilbert , our approach can achieve better performance under the same speed-up ratios of 2× , 3× , and 4×.
+R7	Result Arg1:T10 Arg2:T7	
+R8	Result Arg1:T10 Arg2:T8	
+R9	Solution Arg1:T8 Arg2:T5	
+R10	Contributions Arg1:T8 Arg2:T1	
+R11	Contributions Arg1:T7 Arg2:T1	

@@ -1,0 +1,16 @@
+T1	Titles 0 61	Implicit Representations of Meaning in Neural Language Models
+T2	Persons 64 77	Belinda Z. Li
+R1	Author Arg1:T2 Arg2:T1	
+T3	Issues 80 280	does the effectiveness of neural language models derive entirely from accurate modeling of surface word co-occurrence statistics , or do these models represent and reason about the world they describe
+T4	Methods 329 463	we identify contextual word representations that function as *models of entities and situations* as they evolve throughout a discourse
+R2	Solution Arg1:T4 Arg2:T3	
+T5	Models 287 291	bart
+T6	Models 296 298	t5
+T7	Models 299 326	transformer language models
+R3	Base Arg1:T7 Arg2:T6	
+R4	Base Arg1:T7 Arg2:T5	
+R5	Base Arg1:T5 Arg2:T4	
+R6	Base Arg1:T6 Arg2:T4	
+R7	Contributions Arg1:T4 Arg2:T1	
+T8	Definitions 465 977	these neural representations have functional similarities to linguistic models of dynamic semantics: they support a linear readout of each entity’s current properties and relations , and can be manipulated with predictable effects on language generation. our results indicate that prediction in pretrained neural language models is supported , at least in part , by dynamic representations of meaning and implicit simulation of entity state , and that this behavior can be learned with only text as training data
+R8	Attributes Arg1:T8 Arg2:T4	

@@ -1,0 +1,19 @@
+T1	Titles 0 90	Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning
+T2	Persons 93 103	Xinyu Wang
+R1	Author Arg1:T2 Arg2:T1	
+T3	Tasks 125 149	named entity recognition
+T4	Tasks 153 156	ner
+R2	Base Arg1:T4 Arg2:T3	
+T5	Issues 170 312	document-level contexts can significantly improve model performance. in many application scenarios , however , such contexts are not available
+R3	Challenges Arg1:T5 Arg2:T3	
+T6	Methods 330 512	we propose to find external contexts of a sentence by retrieving and selecting a set of semantically relevant texts through a search engine , with the original sentence as the query.
+T7	Definitions 513 803	we find empirically that the contextual representations computed on the retrieval-based input view , constructed through the concatenation of a sentence and its external contexts , can achieve significantly improved performance compared to the original input view based only on the sentence
+R4	Attributes Arg1:T7 Arg2:T6	
+R5	Solution Arg1:T6 Arg2:T5	
+T8	Methods 879 899	cooperative learning
+R6	Base Arg1:T8 Arg2:T6	
+T9	Definitions 902 1031	a training method that encourages the two input views to produce similar contextual representations or output label distributions
+R7	Attributes Arg1:T9 Arg2:T8	
+T10	Evaluations 1033 1148	experiments show that our approach can achieve new state-of-the-art performance on 8 ner data sets across 5 domains
+R8	Result Arg1:T10 Arg2:T6	
+R9	Contributions Arg1:T6 Arg2:T1	

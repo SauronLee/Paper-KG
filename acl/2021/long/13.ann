@@ -1,0 +1,19 @@
+T1	Titles 0 93	BoB: BERT Over BERT for Training Persona-based Dialogue Models from Limited Personalized Data
+T2	Persons 96 106	Haoyu Song
+R1	Author Arg1:T2 Arg2:T1	
+T3	Definitions 134 141	persona
+T4	Sectors 159 167	dialogue
+R2	Attributes Arg1:T3 Arg2:T4	
+T5	Issues 229 378	the limited-scale of annotated personalized dialogue datasets is still a barrier towards training robust and consistent persona-based dialogue models
+T6	Models 515 529	bert-over-bert
+T7	Models 533 536	bob
+R4	Acronym Arg1:T7 Arg2:T6	
+T8	Definitions 488 501	two sub-tasks
+R5	Attributes Arg1:T8 Arg2:T6	
+R3	Challenges Arg1:T5 Arg2:T4	
+R6	Solution Arg1:T6 Arg2:T5	
+T9	Definitions 562 726	the model consists of a bert-based encoder and two bert-based decoders , where one decoder is for response generation , and another is for consistency understanding
+R7	Attributes Arg1:T9 Arg2:T6	
+T10	Evaluations 936 1081	both automatic and human evaluations demonstrate that the proposed model outperforms strong baselines in response quality and persona consistency
+R8	Result Arg1:T10 Arg2:T6	
+R9	Contributions Arg1:T6 Arg2:T1	
